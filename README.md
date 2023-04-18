@@ -1,6 +1,51 @@
 # Mac-RAM-Cleaner
-This repository contains a simple Python script to help clean your RAM and potentially improve the performance of your MacBook Pro M1. The script clears cache files and purges inactive memory, which may help free up some memory and address certain performance issues.
+# Mac RAM Cleaner
 
-Please note that this script may not resolve all performance problems on your MacBook Pro M1. If you continue to experience slowness after running the script, you might need to investigate other potential causes such as background processes, outdated software, or hardware issues.
+Mac RAM Cleaner is a simple Python script that helps you clean your MacBook Pro M1's memory, improving system performance. It displays memory usage details, clears cache files, and provides an easy way to monitor and manage your Mac's memory usage.
 
-To use the script, follow the instructions in the README file. Always exercise caution when using scripts that require administrator privileges, and make sure to back up your important data before making any changes to your system.
+## Table of Contents
+
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+
+## Requirements
+
+- macOS with an M1 chip
+- Python 3.7 or later
+
+## Installation
+
+1. Clone the repository or download the source code:
+
+https://github.com/Dimon1011/Mac-RAM-Cleaner/
+
+
+2. Navigate to the project directory:
+
+cd Mac-RAM-Cleaner
+
+
+## Usage
+
+1. Open Terminal and navigate to the project directory.
+
+2. Run the script using the following command:
+
+python3 clean_ram.py -c
+
+
+This command will display memory usage details, clear the cache, and show the updated memory usage.
+
+3. If you want to display memory usage without clearing the cache, run the script without the `-c` option:
+
+python3 clean_ram.py
+
+
+Please note that macOS manages memory efficiently, and you may not see significant changes in memory usage after running the script. However, it can still help improve performance by removing cached files that are no longer needed.
+
+## License
+
+[MIT License](LICENSE)
+
